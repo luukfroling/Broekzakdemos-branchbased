@@ -1,5 +1,5 @@
 ---
-title: Pocket demonstrations
+title: Broekzakdemonstraties
 site:
   hide_outline: true
   hide_toc: true
@@ -12,7 +12,7 @@ numbering:
 
 <div style="text-align: center; font-size: 24px; font-weight: bold;">
 
-Pocket demonstrations
+Broekzakdemonstraties
 
 </div>
 
@@ -24,11 +24,11 @@ Pocket demonstrations
 
 <div style="text-align: center; font-size: 12px">
 
-Two hundred "Two Minute" Physics Demonstrations and Visualizations with Common Objects
+200 2 minuten demonstraties en visualisaties met gebruikelijke voorwerpen
 
-test 0.3 
+test 1.0 
 
-Authored by Ed van den Berg
+Auteur: Ed van den Berg
 
-Edited and lay-out by Freek Pols
+Bewerkt en opgemaakt door Freek Pols
 </div>
