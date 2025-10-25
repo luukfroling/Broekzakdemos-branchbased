@@ -29,6 +29,6 @@ site:
   options:
     logo: NVON.png
 
-actions:
+  actions:
     - title: English
       url: https://luukfroling.github.io/Broekzakdemos-branchbased/en/
