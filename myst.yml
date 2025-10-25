@@ -22,11 +22,9 @@ project:
 
 extends: 
   - export.yml
-  - toc_nl.yml
-  # - toc_en.yml
+  - toc.yml
 
 site:
   template: book-theme
   options:
-  #   favicon: favicon.ico
     logo: NVON.png
