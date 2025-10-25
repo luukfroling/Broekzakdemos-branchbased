@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # 1) Discover ALL remote branches (except gh-pages) so we can build them all
+  # 1) Discover ALL remote branches (except gh-pages) so we can build them all, sort for language-{lang}
   get-branches:
     runs-on: ubuntu-latest
     outputs:
@@ -62,7 +62,10 @@ jobs:
       fail-fast: false
       matrix:
         branch: ${{ fromJson(needs.get-branches.outputs.branches) }}
-
+  # Map branch → folder
+  # main → en
+  # language-xx → xx
+  # everything else → sanitized branch name (preview)
     steps:
       - name: Checkout branch
         uses: actions/checkout@v4
